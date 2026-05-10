@@ -1,0 +1,29 @@
+{
+  "_comment": "Danh sách tất cả đề thi. Khi thêm đề mới: thêm 1 entry vào 'exams' và đặt file exam.json ở 'path'.",
+  "exams": [
+    {
+      "id": "demo-minh-hoa",
+      "subject": "Đề minh hoạ (test giao diện)",
+      "date": "demo",
+      "duration_minutes": 15,
+      "status": "ready",
+      "path": "exams/demo-minh-hoa/exam.json"
+    },
+    {
+      "id": "2026-05-10-toan",
+      "subject": "Toán",
+      "date": "2026-05-10",
+      "duration_minutes": 90,
+      "status": "pending",
+      "path": "exams/2026-05-10/toan/exam.json"
+    },
+    {
+      "id": "2026-05-10-gdktpl",
+      "subject": "GDKT&PL",
+      "date": "2026-05-10",
+      "duration_minutes": 50,
+      "status": "pending",
+      "path": "exams/2026-05-10/gdktpl/exam.json"
+    }
+  ]
+}
