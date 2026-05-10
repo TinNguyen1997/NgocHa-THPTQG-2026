@@ -1,0 +1,27 @@
+{
+  "id": "2026-05-10-gdktpl",
+  "subject": "Giáo dục Kinh tế &amp; Pháp luật",
+  "date": "2026-05-10",
+  "duration_minutes": 50,
+  "source": "Đề thi ngày 10/05/2026",
+  "scoring": {
+    "multiple_choice_per_question": 0.25,
+    "true_false_rules": [0, 0.1, 0.25, 0.5, 1.0]
+  },
+  "parts": [
+    {
+      "id": "I",
+      "title": "Phần I. Trắc nghiệm 4 phương án (24 câu)",
+      "instructions": "Mỗi câu chỉ có một phương án đúng.",
+      "type": "multiple_choice",
+      "questions": []
+    },
+    {
+      "id": "II",
+      "title": "Phần II. Đúng/Sai (4 câu)",
+      "instructions": "Mỗi câu có 4 ý a) b) c) d). Đánh dấu Đúng hoặc Sai cho từng ý.",
+      "type": "true_false",
+      "questions": []
+    }
+  ]
+}

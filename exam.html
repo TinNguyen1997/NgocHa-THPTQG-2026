@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Đề thi · Ngọc Hà THPTQG 2026</title>
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body class="exam-body">
+<header class="exam-header">
+  <div class="wrap row between">
+    <div>
+      <a href="index.html" class="back">← Trang chủ</a>
+      <h1 id="exam-title">Đang tải đề…</h1>
+      <div class="muted" id="exam-meta"></div>
+    </div>
+    <div class="timer-box">
+      <div class="muted small">Thời gian còn</div>
+      <div id="timer" class="timer">--:--</div>
+      <button id="toggle-timer" class="btn btn-ghost small">Tạm dừng</button>
+    </div>
+  </div>
+</header>
+
+<main class="exam-main wrap">
+  <aside id="palette" class="palette" aria-label="Bảng câu hỏi">
+    <h3>Bảng câu</h3>
+    <div id="palette-grid" class="palette-grid"></div>
+    <div class="legend">
+      <span><i class="dot done"></i> Đã làm</span>
+      <span><i class="dot flag"></i> Đánh dấu</span>
+      <span><i class="dot empty"></i> Chưa làm</span>
+    </div>
+    <div class="row">
+      <button id="submit-btn" class="btn btn-primary">Nộp bài</button>
+    </div>
+  </aside>
+
+  <section id="questions" class="questions" aria-live="polite">
+    <p class="muted">Đang tải câu hỏi…</p>
+  </section>
+</main>
+
+<dialog id="result-dialog" class="result-dialog">
+  <form method="dialog">
+    <h2>Kết quả</h2>
+    <div id="result-summary"></div>
+    <details>
+      <summary>Chi tiết từng câu</summary>
+      <div id="result-detail"></div>
+    </details>
+    <div class="row">
+      <button id="download-result" type="button" class="btn btn-primary">Tải file kết quả (JSON)</button>
+      <button id="redo-btn" type="button" class="btn btn-ghost">Làm lại</button>
+      <button class="btn btn-ghost" value="close">Đóng</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="assets/common.js"></script>
+<script src="assets/exam.js"></script>
+</body>
+</html>
